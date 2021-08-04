@@ -1,0 +1,21 @@
+#pragma once
+int color(int c);
+void gotoxy(int x, int y);
+void title();
+void DrwaGameframe();
+void flower();
+void MakeTetris(struct Tetris* tetris);
+void PrintTetris(struct Tetris* tetris);
+int ifMove(struct Tetris* tetris);
+void CleanTetris(struct Tetris* tetris);
+void Del_Fullline(struct Tetris* tetris);
+void Flag(struct Tetris* tetris);
+void Gameplay();
+void Replay(struct Tetris* tetris);
+void welcome();
+void explation();
+void regulation();
+void close();
+void Music();
+int Max();
+void Rank(struct Tetris* tetris);
